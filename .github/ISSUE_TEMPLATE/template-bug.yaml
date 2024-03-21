@@ -6,7 +6,9 @@ projects: ["RSoulatIOHK/6"]
 assignees:
   - RSoulatIOHK
   - bogdan-manole
-  - jankajq-iohk
+  - KJES4
+  - amnambiar
+  - jankajg-iohk
 body:
   - type: markdown
     attributes:
