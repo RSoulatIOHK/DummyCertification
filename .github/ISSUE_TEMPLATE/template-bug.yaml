@@ -2,7 +2,7 @@ name: Bug Report
 description: File a bug report
 title: "[Bug]: "
 labels: ["bug", "triage"]
-projects: ["RSoulatIOHK/projects/6/"]
+projects: ["RSoulatIOHK/6"]
 assignees:
   - RSoulatIOHK
   - bogdan-manole
