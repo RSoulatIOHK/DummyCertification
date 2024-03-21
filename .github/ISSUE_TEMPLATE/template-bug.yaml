@@ -1,7 +1,7 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug", "Triage"]
 projects: ["RSoulatIOHK/6"]
 assignees:
   - RSoulatIOHK
@@ -19,7 +19,7 @@ body:
     attributes:
       label: Contact Details
       description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      placeholder: ex. GitHub Handle or Email
     validations:
       required: false
   - type: textarea
