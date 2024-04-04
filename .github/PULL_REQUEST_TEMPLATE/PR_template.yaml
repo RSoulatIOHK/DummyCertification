@@ -5,3 +5,9 @@ title: "Add support for the new feature"
 labels: bug, enhancement, customer-request
 assignees: self
 ---
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this feature request!
