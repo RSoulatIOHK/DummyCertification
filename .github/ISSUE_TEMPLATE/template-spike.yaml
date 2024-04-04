@@ -1,0 +1,51 @@
+name: Spike
+description: Fill in a Spike issue
+title: "[Spike]: "
+labels: ["spike", "Triage"]
+projects: ["RSoulatIOHK/6"]
+assignees:
+  - RSoulatIOHK
+  - bogdan-manole
+  - KJES4
+  - amnambiar
+  - jankajg-iohk
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this spike issue!
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: Provide a bried and concise title for the spike that clearly describes the goal of the spike.
+      placeholder: ex. "Could we use a new library to improve performance?"
+    validations:
+      required: true
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: Clearly state the objective of this spike. What question are we trying to answer, or what problem are we trying to solve? Be as specific as possible.
+      placeholder: ex. "The new library could lead to a 20% performance improvement."
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: Acceptance Criteria
+      description: What are the criteria that need to be met in order to consider this spike successful? Be as specific as possible.
+      placeholder: ex. "The new library must be integrated into the codebase and the performance must be measured."
+    validations:
+      required: true
+  - type: dropdown
+    id: timebox
+    label: Timebox
+    options: 
+      - 1 day
+      - 2 days
+      - 3 days
+      - 4 days
+      - 1 week
+      - 2 weeks
